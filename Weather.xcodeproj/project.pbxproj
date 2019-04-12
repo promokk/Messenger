@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55094F7E22463AA700EEC784 /* NewsViewCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55094F7D22463AA700EEC784 /* NewsViewCellLayout.swift */; };
+		550CA91C22008EDD00D2ED7C /* FirebaseVKId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CA91B22008EDD00D2ED7C /* FirebaseVKId.swift */; };
+		550EB21A21CBCFF6004CEA42 /* VKloginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550EB21921CBCFF6004CEA42 /* VKloginViewController.swift */; };
+		5518271F22087F05002B95EC /* NewsFeedVKService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5518271E22087F05002B95EC /* NewsFeedVKService.swift */; };
+		55182721220880A5002B95EC /* NewsFeedVK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55182720220880A5002B95EC /* NewsFeedVK.swift */; };
+		552BB2062198361500A4141A /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB2052198361500A4141A /* FriendsViewController.swift */; };
+		552BB2082198363000A4141A /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB2072198363000A4141A /* FriendsCell.swift */; };
+		552BB20B219851CD00A4141A /* FrGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB20A219851CD00A4141A /* FrGroupViewController.swift */; };
+		552BB20D219851E800A4141A /* FrGroupViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BB20C219851E800A4141A /* FrGroupViewCell.swift */; };
+		553BBBD421904DF6005841E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BBBD321904DF6005841E4 /* AppDelegate.swift */; };
+		553BBBD921904DF6005841E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553BBBD721904DF6005841E4 /* Main.storyboard */; };
+		553BBBDB21904DF7005841E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553BBBDA21904DF7005841E4 /* Assets.xcassets */; };
+		553BBBDE21904DF7005841E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553BBBDC21904DF7005841E4 /* LaunchScreen.storyboard */; };
+		553BBBE621904E0D005841E4 /* LoginFromController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BBBE521904E0D005841E4 /* LoginFromController.swift */; };
+		553D704A21B2D0C100153D5C /* PictureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553D704921B2D0C100153D5C /* PictureController.swift */; };
+		5578705F21A6BFDA00FAC48B /* NewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5578705E21A6BFDA00FAC48B /* NewsViewCell.swift */; };
+		5578706721A6D59300FAC48B /* NewsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5578706621A6D59300FAC48B /* NewsTableView.swift */; };
+		5584D23721AC08CA00EB01B5 /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5584D23621AC08CA00EB01B5 /* Header.xib */; };
+		5584D23921AC101C00EB01B5 /* loadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5584D23821AC101C00EB01B5 /* loadView.swift */; };
+		5598224C2238019100065A10 /*  ChatTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598224B2238019100065A10 /*  ChatTableView.swift */; };
+		5598224E223801A400065A10 /* ChatViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598224D223801A400065A10 /* ChatViewCell.swift */; };
+		559822512238062800065A10 /* ChatFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598224F2238062800065A10 /* ChatFooter.swift */; };
+		559822522238062800065A10 /* ChatFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 559822502238062800065A10 /* ChatFooter.xib */; };
+		559AEF3C21B54B7400A25B8F /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559AEF3B21B54B7400A25B8F /* CustomNavigationController.swift */; };
+		559E012321DCCEDF0064D085 /* GroupsVK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E012221DCCEDF0064D085 /* GroupsVK.swift */; };
+		559E012521DCD0CA0064D085 /* GroupsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E012421DCD0CA0064D085 /* GroupsService.swift */; };
+		559E012721DCD6B60064D085 /* GroupsNewVK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E012621DCD6B60064D085 /* GroupsNewVK.swift */; };
+		559E012921DCD6D60064D085 /* GroupsNewVKService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559E012821DCD6D60064D085 /* GroupsNewVKService.swift */; };
+		559F180621A5785A00B50805 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F180521A5785A00B50805 /* Header.swift */; };
+		55A1B160222EC27900E9A837 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A1B15F222EC27900E9A837 /* PhotoService.swift */; };
+		55A2336121A167F100B18DE6 /* NameLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A2336021A167F100B18DE6 /* NameLetter.swift */; };
+		55A718332197111600ADE96D /* AllNamesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A718322197111600ADE96D /* AllNamesController.swift */; };
+		55A718352197116C00ADE96D /* AllNamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A718342197116C00ADE96D /* AllNamesCell.swift */; };
+		55A718382197179400ADE96D /* MyNamesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A718372197179400ADE96D /* MyNamesController.swift */; };
+		55A7183A219717AD00ADE96D /* MyNamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A71839219717AD00ADE96D /* MyNamesCell.swift */; };
+		55AB5CB021C7C3F2008D8DCD /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB5CAF21C7C3F2008D8DCD /* Session.swift */; };
+		55AD3FE3220C789500875D8E /* NewsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD3FE2220C789500875D8E /* NewsGroup.swift */; };
+		55AD3FE5220C7BC500875D8E /* NewsProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD3FE4220C7BC500875D8E /* NewsProfile.swift */; };
+		55AFB4D121DE068C000CF03A /* PhotosVK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFB4D021DE068C000CF03A /* PhotosVK.swift */; };
+		55AFB4D321DE06A7000CF03A /* PhotosVKService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFB4D221DE06A7000CF03A /* PhotosVKService.swift */; };
+		55B483DE21F5F19100F31CB7 /* RealmChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B483DD21F5F19100F31CB7 /* RealmChanges.swift */; };
+		55BCD8B222394981000644DE /* MessagesVKConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BCD8B122394981000644DE /* MessagesVKConversation.swift */; };
+		55BCD8B4223949E8000644DE /* MessagesVKConversationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BCD8B3223949E8000644DE /* MessagesVKConversationService.swift */; };
+		55C7E18D2258D78C0033BDC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55C7E18C2258D78C0033BDC5 /* GoogleService-Info.plist */; };
+		55CF67B821D115E00072771F /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CF67B721D115E00072771F /* Friends.swift */; };
+		55CF67BA21D11F8E0072771F /* FriendsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CF67B921D11F8E0072771F /* FriendsService.swift */; };
+		55D1CB8A21F094B60039F162 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1CB8921F094B60039F162 /* DatabaseService.swift */; };
+		55D42AA6223CF47D00F6612D /* MessagesVKChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D42AA5223CF47D00F6612D /* MessagesVKChat.swift */; };
+		55D42AA8223CF54400F6612D /* MessagesVKChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D42AA7223CF54400F6612D /* MessagesVKChatService.swift */; };
+		55E948AE219C3C3A00F73955 /* AvatarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E948AD219C3C3A00F73955 /* AvatarImage.swift */; };
+		55F218552236B2E400D3DB18 /* AllNamesCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F218542236B2E400D3DB18 /* AllNamesCellLayout.swift */; };
+		85C7BF14C2409807F3171637 /* Pods_Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7965BD38706C5D2DB3A7599 /* Pods_Weather.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55094F7D22463AA700EEC784 /* NewsViewCellLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewCellLayout.swift; sourceTree = "<group>"; };
+		550CA91B22008EDD00D2ED7C /* FirebaseVKId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseVKId.swift; sourceTree = "<group>"; };
+		550EB21921CBCFF6004CEA42 /* VKloginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKloginViewController.swift; sourceTree = "<group>"; };
+		5518271E22087F05002B95EC /* NewsFeedVKService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedVKService.swift; sourceTree = "<group>"; };
+		55182720220880A5002B95EC /* NewsFeedVK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedVK.swift; sourceTree = "<group>"; };
+		552BB2052198361500A4141A /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		552BB2072198363000A4141A /* FriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
+		552BB20A219851CD00A4141A /* FrGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrGroupViewController.swift; sourceTree = "<group>"; };
+		552BB20C219851E800A4141A /* FrGroupViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrGroupViewCell.swift; sourceTree = "<group>"; };
+		553BBBD021904DF6005841E4 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		553BBBD321904DF6005841E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		553BBBD821904DF6005841E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		553BBBDA21904DF7005841E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		553BBBDD21904DF7005841E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		553BBBDF21904DF7005841E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553BBBE521904E0D005841E4 /* LoginFromController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFromController.swift; sourceTree = "<group>"; };
+		553D704921B2D0C100153D5C /* PictureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureController.swift; sourceTree = "<group>"; };
+		5578705E21A6BFDA00FAC48B /* NewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewCell.swift; sourceTree = "<group>"; };
+		5578706621A6D59300FAC48B /* NewsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableView.swift; sourceTree = "<group>"; };
+		5584D23621AC08CA00EB01B5 /* Header.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
+		5584D23821AC101C00EB01B5 /* loadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadView.swift; sourceTree = "<group>"; };
+		5598224B2238019100065A10 /*  ChatTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ChatTableView.swift"; sourceTree = "<group>"; };
+		5598224D223801A400065A10 /* ChatViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewCell.swift; sourceTree = "<group>"; };
+		5598224F2238062800065A10 /* ChatFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFooter.swift; sourceTree = "<group>"; };
+		559822502238062800065A10 /* ChatFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatFooter.xib; sourceTree = "<group>"; };
+		559AEF3B21B54B7400A25B8F /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		559E012221DCCEDF0064D085 /* GroupsVK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVK.swift; sourceTree = "<group>"; };
+		559E012421DCD0CA0064D085 /* GroupsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsService.swift; sourceTree = "<group>"; };
+		559E012621DCD6B60064D085 /* GroupsNewVK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsNewVK.swift; sourceTree = "<group>"; };
+		559E012821DCD6D60064D085 /* GroupsNewVKService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsNewVKService.swift; sourceTree = "<group>"; };
+		559F180521A5785A00B50805 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		55A1B15F222EC27900E9A837 /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
+		55A2336021A167F100B18DE6 /* NameLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameLetter.swift; sourceTree = "<group>"; };
+		55A718322197111600ADE96D /* AllNamesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNamesController.swift; sourceTree = "<group>"; };
+		55A718342197116C00ADE96D /* AllNamesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNamesCell.swift; sourceTree = "<group>"; };
+		55A718372197179400ADE96D /* MyNamesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNamesController.swift; sourceTree = "<group>"; };
+		55A71839219717AD00ADE96D /* MyNamesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNamesCell.swift; sourceTree = "<group>"; };
+		55AB5CAF21C7C3F2008D8DCD /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		55AD3FE2220C789500875D8E /* NewsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsGroup.swift; sourceTree = "<group>"; };
+		55AD3FE4220C7BC500875D8E /* NewsProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsProfile.swift; sourceTree = "<group>"; };
+		55AFB4D021DE068C000CF03A /* PhotosVK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosVK.swift; sourceTree = "<group>"; };
+		55AFB4D221DE06A7000CF03A /* PhotosVKService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosVKService.swift; sourceTree = "<group>"; };
+		55B483DD21F5F19100F31CB7 /* RealmChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmChanges.swift; sourceTree = "<group>"; };
+		55BCD8B122394981000644DE /* MessagesVKConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVKConversation.swift; sourceTree = "<group>"; };
+		55BCD8B3223949E8000644DE /* MessagesVKConversationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVKConversationService.swift; sourceTree = "<group>"; };
+		55C7E18C2258D78C0033BDC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55CF67B721D115E00072771F /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		55CF67B921D11F8E0072771F /* FriendsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsService.swift; sourceTree = "<group>"; };
+		55D1CB8921F094B60039F162 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		55D42AA5223CF47D00F6612D /* MessagesVKChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVKChat.swift; sourceTree = "<group>"; };
+		55D42AA7223CF54400F6612D /* MessagesVKChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVKChatService.swift; sourceTree = "<group>"; };
+		55E948AD219C3C3A00F73955 /* AvatarImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarImage.swift; sourceTree = "<group>"; };
+		55F218542236B2E400D3DB18 /* AllNamesCellLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNamesCellLayout.swift; sourceTree = "<group>"; };
+		D5253C119F2FF3A6663571FA /* Pods-Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weather/Pods-Weather.debug.xcconfig"; sourceTree = "<group>"; };
+		E7965BD38706C5D2DB3A7599 /* Pods_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC1895DF485DC57A5A67D96 /* Pods-Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weather/Pods-Weather.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		553BBBCD21904DF6005841E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C7BF14C2409807F3171637 /* Pods_Weather.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5513CFBC21EA46AE00A79095 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55AB5CAF21C7C3F2008D8DCD /* Session.swift */,
+				55CF67B721D115E00072771F /* Friends.swift */,
+				559E012221DCCEDF0064D085 /* GroupsVK.swift */,
+				559E012621DCD6B60064D085 /* GroupsNewVK.swift */,
+				55AFB4D021DE068C000CF03A /* PhotosVK.swift */,
+				550CA91B22008EDD00D2ED7C /* FirebaseVKId.swift */,
+				55182720220880A5002B95EC /* NewsFeedVK.swift */,
+				55AD3FE2220C789500875D8E /* NewsGroup.swift */,
+				55AD3FE4220C7BC500875D8E /* NewsProfile.swift */,
+				55BCD8B122394981000644DE /* MessagesVKConversation.swift */,
+				55D42AA5223CF47D00F6612D /* MessagesVKChat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5513CFBD21EA46C000A79095 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				55CF67B921D11F8E0072771F /* FriendsService.swift */,
+				559E012421DCD0CA0064D085 /* GroupsService.swift */,
+				559E012821DCD6D60064D085 /* GroupsNewVKService.swift */,
+				55AFB4D221DE06A7000CF03A /* PhotosVKService.swift */,
+				5518271E22087F05002B95EC /* NewsFeedVKService.swift */,
+				55A1B15F222EC27900E9A837 /* PhotoService.swift */,
+				55BCD8B3223949E8000644DE /* MessagesVKConversationService.swift */,
+				55D42AA7223CF54400F6612D /* MessagesVKChatService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		552BB2092198515C00A4141A /* FriendsGroup */ = {
+			isa = PBXGroup;
+			children = (
+				552BB20A219851CD00A4141A /* FrGroupViewController.swift */,
+				552BB20C219851E800A4141A /* FrGroupViewCell.swift */,
+			);
+			path = FriendsGroup;
+			sourceTree = "<group>";
+		};
+		553BBBC721904DF6005841E4 = {
+			isa = PBXGroup;
+			children = (
+				55C7E18C2258D78C0033BDC5 /* GoogleService-Info.plist */,
+				553BBBD221904DF6005841E4 /* Weather */,
+				553BBBD121904DF6005841E4 /* Products */,
+				CDFB6C2752BEF3BA4C80DA05 /* Pods */,
+				B12EE10671C45230AF2B6A99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		553BBBD121904DF6005841E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				553BBBD021904DF6005841E4 /* Weather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		553BBBD221904DF6005841E4 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				553BBBD321904DF6005841E4 /* AppDelegate.swift */,
+				553BBBE521904E0D005841E4 /* LoginFromController.swift */,
+				55D1CB8921F094B60039F162 /* DatabaseService.swift */,
+				55B483DD21F5F19100F31CB7 /* RealmChanges.swift */,
+				553BBBD721904DF6005841E4 /* Main.storyboard */,
+				5513CFBC21EA46AE00A79095 /* Model */,
+				5513CFBD21EA46C000A79095 /* Networking */,
+				5586C02F21CD04F2007AA55A /* VK */,
+				55A718312197109000ADE96D /* AllNames */,
+				55A718362197175C00ADE96D /* MyNames */,
+				559FF749219834240030AF87 /* Friends */,
+				552BB2092198515C00A4141A /* FriendsGroup */,
+				55E948AC219C3C1700F73955 /* AvatarImageView */,
+				5578705D21A6BF8A00FAC48B /* News */,
+				5598224A2238015100065A10 /* Chat */,
+				553BBBDC21904DF7005841E4 /* LaunchScreen.storyboard */,
+				553BBBDA21904DF7005841E4 /* Assets.xcassets */,
+				553BBBDF21904DF7005841E4 /* Info.plist */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		5578705D21A6BF8A00FAC48B /* News */ = {
+			isa = PBXGroup;
+			children = (
+				5578706621A6D59300FAC48B /* NewsTableView.swift */,
+				5578705E21A6BFDA00FAC48B /* NewsViewCell.swift */,
+				55094F7D22463AA700EEC784 /* NewsViewCellLayout.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		5586C02F21CD04F2007AA55A /* VK */ = {
+			isa = PBXGroup;
+			children = (
+				550EB21921CBCFF6004CEA42 /* VKloginViewController.swift */,
+			);
+			path = VK;
+			sourceTree = "<group>";
+		};
+		5598224A2238015100065A10 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				5598224B2238019100065A10 /*  ChatTableView.swift */,
+				5598224D223801A400065A10 /* ChatViewCell.swift */,
+				5598224F2238062800065A10 /* ChatFooter.swift */,
+				559822502238062800065A10 /* ChatFooter.xib */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		559FF749219834240030AF87 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				552BB2052198361500A4141A /* FriendsViewController.swift */,
+				552BB2072198363000A4141A /* FriendsCell.swift */,
+				553D704921B2D0C100153D5C /* PictureController.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		55A718312197109000ADE96D /* AllNames */ = {
+			isa = PBXGroup;
+			children = (
+				55A718322197111600ADE96D /* AllNamesController.swift */,
+				55A718342197116C00ADE96D /* AllNamesCell.swift */,
+				55F218542236B2E400D3DB18 /* AllNamesCellLayout.swift */,
+				559F180521A5785A00B50805 /* Header.swift */,
+				5584D23621AC08CA00EB01B5 /* Header.xib */,
+			);
+			path = AllNames;
+			sourceTree = "<group>";
+		};
+		55A718362197175C00ADE96D /* MyNames */ = {
+			isa = PBXGroup;
+			children = (
+				55A718372197179400ADE96D /* MyNamesController.swift */,
+				55A71839219717AD00ADE96D /* MyNamesCell.swift */,
+			);
+			path = MyNames;
+			sourceTree = "<group>";
+		};
+		55E948AC219C3C1700F73955 /* AvatarImageView */ = {
+			isa = PBXGroup;
+			children = (
+				55E948AD219C3C3A00F73955 /* AvatarImage.swift */,
+				55A2336021A167F100B18DE6 /* NameLetter.swift */,
+				5584D23821AC101C00EB01B5 /* loadView.swift */,
+				559AEF3B21B54B7400A25B8F /* CustomNavigationController.swift */,
+			);
+			path = AvatarImageView;
+			sourceTree = "<group>";
+		};
+		B12EE10671C45230AF2B6A99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7965BD38706C5D2DB3A7599 /* Pods_Weather.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDFB6C2752BEF3BA4C80DA05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5253C119F2FF3A6663571FA /* Pods-Weather.debug.xcconfig */,
+				FCC1895DF485DC57A5A67D96 /* Pods-Weather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		553BBBCF21904DF6005841E4 /* Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553BBBE221904DF7005841E4 /* Build configuration list for PBXNativeTarget "Weather" */;
+			buildPhases = (
+				A369D50A714A191403324495 /* [CP] Check Pods Manifest.lock */,
+				553BBBCC21904DF6005841E4 /* Sources */,
+				553BBBCD21904DF6005841E4 /* Frameworks */,
+				553BBBCE21904DF6005841E4 /* Resources */,
+				6C17E4FC94C90932FB8BC991 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weather;
+			productName = Weather;
+			productReference = 553BBBD021904DF6005841E4 /* Weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		553BBBC821904DF6005841E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Andrey Vorobyv";
+				TargetAttributes = {
+					553BBBCF21904DF6005841E4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 553BBBCB21904DF6005841E4 /* Build configuration list for PBXProject "Weather" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 553BBBC721904DF6005841E4;
+			productRefGroup = 553BBBD121904DF6005841E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				553BBBCF21904DF6005841E4 /* Weather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		553BBBCE21904DF6005841E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5584D23721AC08CA00EB01B5 /* Header.xib in Resources */,
+				553BBBDE21904DF7005841E4 /* LaunchScreen.storyboard in Resources */,
+				553BBBDB21904DF7005841E4 /* Assets.xcassets in Resources */,
+				559822522238062800065A10 /* ChatFooter.xib in Resources */,
+				553BBBD921904DF6005841E4 /* Main.storyboard in Resources */,
+				55C7E18D2258D78C0033BDC5 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C17E4FC94C90932FB8BC991 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Weather/Pods-Weather-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Weather/Pods-Weather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A369D50A714A191403324495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weather-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		553BBBCC21904DF6005841E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A718382197179400ADE96D /* MyNamesController.swift in Sources */,
+				55094F7E22463AA700EEC784 /* NewsViewCellLayout.swift in Sources */,
+				55CF67B821D115E00072771F /* Friends.swift in Sources */,
+				559F180621A5785A00B50805 /* Header.swift in Sources */,
+				55D42AA6223CF47D00F6612D /* MessagesVKChat.swift in Sources */,
+				55D1CB8A21F094B60039F162 /* DatabaseService.swift in Sources */,
+				559AEF3C21B54B7400A25B8F /* CustomNavigationController.swift in Sources */,
+				55A718332197111600ADE96D /* AllNamesController.swift in Sources */,
+				55E948AE219C3C3A00F73955 /* AvatarImage.swift in Sources */,
+				5584D23921AC101C00EB01B5 /* loadView.swift in Sources */,
+				559E012521DCD0CA0064D085 /* GroupsService.swift in Sources */,
+				55A7183A219717AD00ADE96D /* MyNamesCell.swift in Sources */,
+				559E012921DCD6D60064D085 /* GroupsNewVKService.swift in Sources */,
+				553D704A21B2D0C100153D5C /* PictureController.swift in Sources */,
+				55BCD8B4223949E8000644DE /* MessagesVKConversationService.swift in Sources */,
+				5598224C2238019100065A10 /*  ChatTableView.swift in Sources */,
+				559E012721DCD6B60064D085 /* GroupsNewVK.swift in Sources */,
+				552BB2062198361500A4141A /* FriendsViewController.swift in Sources */,
+				55AFB4D321DE06A7000CF03A /* PhotosVKService.swift in Sources */,
+				552BB20D219851E800A4141A /* FrGroupViewCell.swift in Sources */,
+				559E012321DCCEDF0064D085 /* GroupsVK.swift in Sources */,
+				553BBBD421904DF6005841E4 /* AppDelegate.swift in Sources */,
+				55AB5CB021C7C3F2008D8DCD /* Session.swift in Sources */,
+				55A718352197116C00ADE96D /* AllNamesCell.swift in Sources */,
+				55A1B160222EC27900E9A837 /* PhotoService.swift in Sources */,
+				55D42AA8223CF54400F6612D /* MessagesVKChatService.swift in Sources */,
+				55A2336121A167F100B18DE6 /* NameLetter.swift in Sources */,
+				5518271F22087F05002B95EC /* NewsFeedVKService.swift in Sources */,
+				55BCD8B222394981000644DE /* MessagesVKConversation.swift in Sources */,
+				55182721220880A5002B95EC /* NewsFeedVK.swift in Sources */,
+				55B483DE21F5F19100F31CB7 /* RealmChanges.swift in Sources */,
+				55AD3FE3220C789500875D8E /* NewsGroup.swift in Sources */,
+				55AFB4D121DE068C000CF03A /* PhotosVK.swift in Sources */,
+				553BBBE621904E0D005841E4 /* LoginFromController.swift in Sources */,
+				550EB21A21CBCFF6004CEA42 /* VKloginViewController.swift in Sources */,
+				5578705F21A6BFDA00FAC48B /* NewsViewCell.swift in Sources */,
+				5578706721A6D59300FAC48B /* NewsTableView.swift in Sources */,
+				55AD3FE5220C7BC500875D8E /* NewsProfile.swift in Sources */,
+				5598224E223801A400065A10 /* ChatViewCell.swift in Sources */,
+				559822512238062800065A10 /* ChatFooter.swift in Sources */,
+				550CA91C22008EDD00D2ED7C /* FirebaseVKId.swift in Sources */,
+				55F218552236B2E400D3DB18 /* AllNamesCellLayout.swift in Sources */,
+				552BB20B219851CD00A4141A /* FrGroupViewController.swift in Sources */,
+				552BB2082198363000A4141A /* FriendsCell.swift in Sources */,
+				55CF67BA21D11F8E0072771F /* FriendsService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		553BBBD721904DF6005841E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				553BBBD821904DF6005841E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		553BBBDC21904DF7005841E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				553BBBDD21904DF7005841E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		553BBBE021904DF7005841E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		553BBBE121904DF7005841E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		553BBBE321904DF7005841E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5253C119F2FF3A6663571FA /* Pods-Weather.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ADT2K656;
+				INFOPLIST_FILE = Weather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = andreyproduction.Weather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		553BBBE421904DF7005841E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC1895DF485DC57A5A67D96 /* Pods-Weather.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ADT2K656;
+				INFOPLIST_FILE = Weather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = andreyproduction.Weather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		553BBBCB21904DF6005841E4 /* Build configuration list for PBXProject "Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553BBBE021904DF7005841E4 /* Debug */,
+				553BBBE121904DF7005841E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553BBBE221904DF7005841E4 /* Build configuration list for PBXNativeTarget "Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553BBBE321904DF7005841E4 /* Debug */,
+				553BBBE421904DF7005841E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 553BBBC821904DF6005841E4 /* Project object */;
+}
